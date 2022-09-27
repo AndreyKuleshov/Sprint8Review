@@ -1,3 +1,5 @@
+package SeleniumReview;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +25,7 @@ public class MetroHomePage {
     //...
     private final By routeStationFromTo = By.className("route-details-block__terminal-station");
 
-    // конструктор класса MetroHomePage с нужным параметром
+    // конструктор класса SeleniumReview.MetroHomePage с нужным параметром
     public MetroHomePage(WebDriver driver) {
         this.driver = driver;
     }
